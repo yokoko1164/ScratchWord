@@ -1,0 +1,438 @@
+*{
+  margin:0; padding:0;^ ^ ^ ^ /*全要素のマージン・パディングをリセット*/
+
+}
+
+html, body {
+  background-color: black;
+  color : white;
+  font-family : fantasy ;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#statusBar {
+  height : 20px;
+  background-color : white;
+}
+
+#container {
+  height : 100%;
+  background-color : black;
+}
+
+/**********container_topStart ***********/
+#container_topStart {
+  text-align : center;
+  width : 320px;
+  height : 100%;
+}
+
+#container_topStart div.tap {
+  padding : 100px 70px;
+  font-size : 500%;
+  width : 50%;
+  position : absolute;
+  z-index : 1;
+}
+
+#advertisement_is {
+  margin : auto;
+  margin-top : 30%;
+  width : 300px;
+  position : relative;
+}
+
+#nend_adspace_105644_275499 {
+  position : relative;
+  z-index : 2;
+}
+
+#close_3 {
+  background : rgba(0,0,0,0.5);
+  width : 40px;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 3px;
+  color : red;
+  position : absolute;
+  right : 0;
+  z-index : 3;
+}
+
+/*************container_start ************/
+#container_start {
+  display : none;
+  text-align : center;
+  height : 100%;
+  overflow : hidden;
+  font-family : fantasy ;
+}
+
+#container_start #top {
+  height : 40%;
+}
+
+#top #title {
+  padding-top :20px;
+  line-height :80px;
+  font-size : 500%;
+}
+
+#container_start #record {
+  height : 10%;
+  font-size : 100%;
+  color : blue;
+}
+
+#container_start #column {
+  width : 100%;
+  height : 25%;
+}
+
+#container_start #column #icon_ad_left{
+  padding :0;
+  float : left;
+  width : 25%;
+  height : 100%;
+}
+
+#container_start #column #button{
+  float : left;
+  width : 50%;
+  height : 100%;
+}
+
+#container_start #button button{
+  padding :0;
+  font-size : 20px;
+  width : 100%;
+  height : 80%;
+  margin : 5% 0;
+  font-family : fantasy ;
+}
+
+#container_start #column #icon_ad_right{
+  padding :0;
+  float : left;
+  width : 25%;
+  height : 100%;
+}
+
+
+#container_start .icon_ad {
+  width : 100%;
+  height :100%;
+}
+
+/*************container_game ************/
+/******* header ********/
+#container_game {
+  display :none;
+  height : 100%;
+
+}
+
+#header {
+  height : 12.25%;
+  border-bottom : 1px solid gray;
+  font-family : fantasy ;
+  font-weight : bold;
+  font-size : 18px;
+  overflow : hidden;
+}
+
+#header #header_left {
+  width : 180px;
+  display : block;
+  float : left;
+}
+
+#rest div {
+  display : inline;
+}
+
+#rest #change {
+  opacity : 0;
+}
+
+#point div {
+  display : inline;
+}
+
+#point #score {
+  opacity : 0;
+}
+
+#header #header_center {
+  display : block;
+  float : left;
+}
+
+#timer div.count {
+  width : 50px;
+  height : 50px;
+  font-size : 40px;
+}
+
+
+#header_right div {
+  display : block;
+  padding-top : 2px;
+  background-color : black;
+  font-size : 35px;
+  color : white;
+  width : 80px;
+  height : 48px;
+}
+
+#header #header_right {
+  display : block;
+  float : left;
+}
+
+
+/****** scratch_view ******/
+/***** back_image *****/
+
+div#scratch_view {
+  width : 320px;
+  height : 240px;
+  position : relative;
+}
+
+div#back_image {
+  width : 320px;
+  height : 240px;
+  position : absolute;
+  overflow : hidden;
+}
+
+#back_image div {
+  background-image : url(images/string2.png);
+  background-repeat : no-repeat;
+}
+#back_image div#back1{width:64px; height:60px ;position:absolute; top:0; left:0;}
+#back_image div#back2{width:64px; height:60px ;position:absolute; top:0; left:64px;}
+#back_image div#back3{width:64px; height:60px ;position:absolute; top:0; left:128px;}
+#back_image div#back4{width:64px; height:60px ;position:absolute; top:0; left:192px;}
+#back_image div#back5{width:64px; height:60px ;position:absolute; top:0; left:256px;}
+#back_image div#back6{width:64px; height:60px ;position:absolute; top:60px; left:0px;}
+#back_image div#back7{width:64px; height:60px ;position:absolute; top:60px; left:64px;}
+#back_image div#back8{width:64px; height:60px ;position:absolute; top:60px; left:128px;}
+#back_image div#back9{width:64px; height:60px ;position:absolute; top:60px; left:192px;}
+#back_image div#back10{width:64px; height:60px ;position:absolute; top:60px; left:256px;}
+#back_image div#back11{width:64px; height:60px ;position:absolute; top:120px; left:0px;}
+#back_image div#back12{width:64px; height:60px ;position:absolute; top:120px; left:64px;}
+#back_image div#back13{width:64px; height:60px ;position:absolute; top:120px; left:128px;}
+#back_image div#back14{width:64px; height:60px ;position:absolute; top:120px; left:196px;}
+#back_image div#back15{width:64px; height:60px ;position:absolute; top:120px; left:256px;}
+#back_image div#back16{width:64px; height:60px ;position:absolute; top:180px; left:0px;}
+#back_image div#back17{width:64px; height:60px ;position:absolute; top:180px; left:64px;}
+#back_image div#back18{width:64px; height:60px ;position:absolute; top:180px; left:128px;}
+#back_image div#back19{width:64px; height:60px ;position:absolute; top:180px; left:196px;}
+#back_image div#back20{width:64px; height:60px ;position:absolute; top:180px; left:256px;}
+
+#back_image div.sprite-capital_a{ background-position: 0 0;}
+#back_image div.sprite-capital_b{ background-position: 0 -61px;}
+#back_image div.sprite-capital_c{ background-position: 0 -122px;}
+#back_image div.sprite-capital_d{ background-position: 0 -183px;}
+#back_image div.sprite-capital_e{ background-position: 0 -244px;}
+#back_image div.sprite-capital_f{ background-position: 0 -305px;}
+#back_image div.sprite-capital_g{ background-position: 0 -366px;}
+#back_image div.sprite-capital_h{ background-position: 0 -427px;}
+#back_image div.sprite-capital_i{ background-position: 0 -488px;}
+#back_image div.sprite-capital_j{ background-position: 0 -549px;}
+#back_image div.sprite-capital_k{ background-position: 0 -610px;}
+#back_image div.sprite-capital_l{ background-position: 0 -671px;}
+#back_image div.sprite-capital_m{ background-position: 0 -732px;}
+#back_image div.sprite-capital_n{ background-position: 0 -793px;}
+#back_image div.sprite-capital_o{ background-position: 0 -854px;}
+#back_image div.sprite-capital_p{ background-position: 0 -915px;}
+#back_image div.sprite-capital_q{ background-position: 0 -976px;}
+#back_image div.sprite-capital_r{ background-position: 0 -1037px;}
+#back_image div.sprite-capital_s{ background-position: 0 -1098px;}
+#back_image div.sprite-capital_t{ background-position: 0 -1159px;}
+#back_image div.sprite-capital_u{ background-position: 0 -1220px;}
+#back_image div.sprite-capital_v{ background-position: 0 -1281px;}
+#back_image div.sprite-capital_w{ background-position: 0 -1342px;}
+#back_image div.sprite-capital_x{ background-position: 0 -1403px;}
+#back_image div.sprite-capital_y{ background-position: 0 -1463px;}
+#back_image div.sprite-capital_z{ background-position: 0 -1524px;}
+#back_image div.sprite-lower_a{ background-position: 0 -1585px;}
+#back_image div.sprite-lower_b{ background-position: 0 -1646px;}
+#back_image div.sprite-lower_c{ background-position: 0 -1707px;}
+#back_image div.sprite-lower_d{ background-position: 0 -1768px;}
+#back_image div.sprite-lower_e{ background-position: 0 -1829px;}
+#back_image div.sprite-lower_f{ background-position: 0 -1890px;}
+#back_image div.sprite-lower_g{ background-position: 0 -1951px;}
+#back_image div.sprite-lower_h{ background-position: -61px 0;}
+#back_image div.sprite-lower_i{ background-position: -61px -61px;}
+#back_image div.sprite-lower_j{ background-position: -61px -122px;}
+#back_image div.sprite-lower_k{ background-position: -61px -183px;}
+#back_image div.sprite-lower_l{ background-position: -61px -244px;}
+#back_image div.sprite-lower_m{ background-position: -61px -305px;}
+#back_image div.sprite-lower_n{ background-position: -61px -362px;}
+#back_image div.sprite-lower_o{ background-position: -61px -423px;}
+#back_image div.sprite-lower_p{ background-position: -61px -484px;}
+#back_image div.sprite-lower_q{ background-position: -61px -545px;}
+#back_image div.sprite-lower_r{ background-position: -61px -606px;}
+#back_image div.sprite-lower_s{ background-position: -61px -667px;}
+#back_image div.sprite-lower_t{ background-position: -61px -728px;}
+#back_image div.sprite-lower_u{ background-position: -61px -789px;}
+#back_image div.sprite-lower_v{ background-position: -61px -850px;}
+#back_image div.sprite-lower_w{ background-position: -61px -911px;}
+#back_image div.sprite-lower_x{ background-position: -61px -968px;}
+#back_image div.sprite-lower_y{ background-position: -61px -1028px;}
+#back_image div.sprite-lower_z{ background-position: -61px -1088px;}
+
+#back_image div.sprite_0{ background-position: -61px -1200px;}
+
+
+
+
+
+
+
+/****** scratch ******/
+
+#scratch {
+  overflow : hidden;
+}
+#scratch div {
+  background-image : url(images/universe1.jpg);
+  background-repeat : no-repeat;
+  border : 1px solid #1a1a1a;
+  width : 62px;
+  height: 46px;
+}
+
+#scratch div:active {
+  background-color : gray;
+}
+
+#scratch div#scratch1{background-position:0 0; position:absolute; top:0; left:0px;}
+#scratch div#scratch2{background-position:-64px 0; position:absolute; top:0; left:64px;}
+#scratch div#scratch3{background-position:-128px 0; position:absolute; top:0; left:128px;}
+#scratch div#scratch4{background-position:-192px 0; position:absolute; top:0; left:192px;}
+#scratch div#scratch5{background-position:-256px 0; position:absolute; top:0; left:256px;}
+#scratch div#scratch6{background-position:0 -48px; position:absolute; top:48px; left:0px;}
+#scratch div#scratch7{background-position:-64px -48px; position:absolute; top:48px; left:64px;}
+#scratch div#scratch8{background-position:-128px -48px; position:absolute; top:48px; left:128px;}
+#scratch div#scratch9{background-position:-192px -48px; position:absolute; top:48px; left:192px;}
+#scratch div#scratch10{background-position:-256px -48px; position:absolute; top:48px; left:256px;}
+#scratch div#scratch11{background-position:0 -96px ; position:absolute; top:96px; left:0px;}
+#scratch div#scratch12{background-position:-64px -96px; position:absolute; top:96px; left:64px;}
+#scratch div#scratch13{background-position:-128px -96px; position:absolute; top:96px; left:128px;}
+#scratch div#scratch14{background-position:-192px -96px; position:absolute; top:96px; left:192px;}
+#scratch div#scratch15{background-position:-256px -96px; position:absolute; top:96px; left:256px;}
+#scratch div#scratch16{background-position:0 -144px ; position:absolute; top:144px; left:0px;}
+#scratch div#scratch17{background-position:-64px -144px; position:absolute; top:144px; left:64px;}
+#scratch div#scratch18{background-position:-128px -144px; position:absolute; top:144px; left:128px;}
+#scratch div#scratch19{background-position:-192px -144px; position:absolute; top:144px; left:192px;}
+#scratch div#scratch20{background-position:-256px -144px; position:absolute; top:144px; left:256px;}
+#scratch div#scratch21{background-position:0 -192px ; position:absolute; top:192px; left:0px;}
+#scratch div#scratch22{background-position:-64px -192px; position:absolute; top:192px; left:64px;}
+#scratch div#scratch23{background-position:-128px -192px; position:absolute; top:192px; left:128px;}
+#scratch div#scratch24{background-position:-192px -192px; position:absolute; top:192px; left:192px;}
+#scratch div#scratch25{background-position:-256px -192px; position:absolute; top:192px; left:256px;}
+
+/****** select *******/
+
+#select {
+  overflow :hidden;
+  height: 30%;
+}
+
+.select {
+  display : block;
+  padding-top : 5px;
+  font-family : fantasy ;
+  font-weight : bold;
+  font-size : 18px;
+  color : white;
+  width : 158px;
+  height: 32%;
+  border : 1px solid #1a1a1a;
+  text-align : center;
+  float : left;
+  background-color : black;
+}
+
+#overlay_false {
+  display :none;
+  width : 320px;
+  height :100%;
+  position : fixed;
+  top : 0;
+  z-index : 100;
+  background : rgba(200,0,0,0.7);
+}
+
+#overlay {
+  display :none;
+  width : 320px;
+  height : 100%;
+  text-align : center;
+  position : fixed;
+  top : 0;
+  z-index : 100;
+  background : rgba(0,0,0,0.7);
+}
+
+#overlay #end {
+  font-size : 80px;
+  color : #eee;
+  padding-top : 150px;
+  font-weight : bold;
+  letter-spacing : 0.4em;
+}
+
+#overlay #close {
+  background : rgba(0,0,0,0.7);
+  color : #eee;
+  width : 120px;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top : 50px;
+  padding:5px 5px 5px 5px;
+  border-radius: 3px;
+  letter-spacing : 0.5em;
+}
+
+#overlay #close:active {
+  background : rgba(0,0,0,0.9);
+}
+/*************container_end ************/
+#container_end {
+  display : none;
+  padding-top : 40px;
+  width :320px;
+  height : 100%;
+  font-size : 400%;
+  line-height : 70px;
+  text-align : center;
+}
+
+#container_end button {
+  height : 10%;
+  margin : 4px;
+  width : 160px;
+  font-size : 20px;
+  text-align : center;
+  font-family : fantasy ;
+}
+
+#container_end #icon_ad_end {
+  width : 100%;
+}
+/*************************footer*****************/
+#footer {
+  position:absolute; bottom:0%;
+  width : 100%;
+  height : 50px;
+}
+

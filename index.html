@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no,width=320,target-densitydpi=320">
+    <meta name="format-detection" content="telephone=no">
+    <title>スクラッチ</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="phonegap.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/GameCenterPlugin.js"></script>
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="coffee/data.js"></script>
+    <script type="text/javascript" src="coffee/index.js"></script>
+  </head>
+  <body>
+    <div id="statusBar"></div>
+    <div id="touch_area">
+      <div id="container">
+        <div id ="container_topStart">
+          <div id="advertisement_is">
+            <div class="tap">TAP</div>
+            <p id="close_3">×</p>
+          </div>
+        </div><!-- #container_topStart -->
+        <div id ="container_start">
+          <div id="top">
+            <h1 id="title">Scratch Word</h1>
+          </div>
+          <div id ="record">
+            <div class="text">Highest Score</div>
+            <div class="count">0 pt</div>
+          </div><!-- #countquestion -->
+          <div id="column">
+            <div id="icon_ad_left">
+            </div>
+            <div id="button">
+              <button id="start">Start</button>
+            </div><!-- #button -->
+            <div id="icon_ad_right">
+              <div id="icon_ad_right_1" class="icon_ad">
+              </div>
+            </div>
+          </div><!-- #column -->
+        </div><!-- #container_start -->
+        <div id="container_game">
+          <div id="header">
+            <div id="header_left">
+              <div id="rest">
+                <div class="text">Rest&nbsp; : </div>
+                <div class="count">50</div>
+                <div id="change">0</div>
+              </div>
+              <div id="point">
+                <div class="text">Point : </div>
+                <div class="count">0</div>
+                <div id="score">0</div>
+              </div>
+            </div><!-- #header_left -->
+            <div id="header_center">
+              <div id="timer">
+                <div class="count">10</div>
+              </div>
+            </div><!-- #header_center -->
+            <div id="header_right">
+              <div id="pass">
+                <div>Pass</div>
+              </div>
+            </div><!-- #header_right -->
+          </div><!--header-->
+          <div id="scratch_view">
+            <div id="back_image">
+              <div id="back1" class="sprite_0"></div>
+              <div id="back2" class="sprite_0"></div>
+              <div id="back3" class="sprite_0"></div>
+              <div id="back4" class="sprite_0"></div>
+              <div id="back5" class="sprite_0"></div>
+              <div id="back6" class="sprite_0"></div>
+              <div id="back7" class="sprite_0"></div>
+              <div id="back8" class="sprite_0"></div>
+              <div id="back9" class="sprite_0"></div>
+              <div id="back10" class="sprite_0"></div>
+              <div id="back11" class="sprite_0"></div>
+              <div id="back12" class="sprite_0"></div>
+              <div id="back13" class="sprite_0"></div>
+              <div id="back14" class="sprite_0"></div>
+              <div id="back15" class="sprite_0"></div>
+              <div id="back16" class="sprite_0"></div>
+              <div id="back17" class="sprite_0"></div>
+              <div id="back18" class="sprite_0"></div>
+              <div id="back19" class="sprite_0"></div>
+              <div id="back20" class="sprite_0"></div>
+            </div><!--back_image-->
+            <div id="scratch">
+              <div id="scratch1" class="scratch"></div>
+              <div id="scratch2" class="scratch"></div>
+              <div id="scratch3" class="scratch"></div>
+              <div id="scratch4" class="scratch"></div>
+              <div id="scratch5" class="scratch"></div>
+              <div id="scratch6" class="scratch"></div>
+              <div id="scratch7" class="scratch"></div>
+              <div id="scratch8" class="scratch"></div>
+              <div id="scratch9" class="scratch"></div>
+              <div id="scratch10" class="scratch"></div>
+              <div id="scratch11" class="scratch"></div>
+              <div id="scratch12" class="scratch"></div>
+              <div id="scratch13" class="scratch"></div>
+              <div id="scratch14" class="scratch"></div>
+              <div id="scratch15" class="scratch"></div>
+              <div id="scratch16" class="scratch"></div>
+              <div id="scratch17" class="scratch"></div>
+              <div id="scratch18" class="scratch"></div>
+              <div id="scratch19" class="scratch"></div>
+              <div id="scratch20" class="scratch"></div>
+              <div id="scratch21" class="scratch"></div>
+              <div id="scratch22" class="scratch"></div>
+              <div id="scratch23" class="scratch"></div>
+              <div id="scratch24" class="scratch"></div>
+              <div id="scratch25" class="scratch"></div>
+            </div><!--scratch -->
+          </div><!--scratch_view -->
+          <div id="select">
+            <div class="select"></div>
+            <div class="select"></div>
+            <div class="select"></div>
+            <div class="select"></div>
+            <div class="select"></div>
+            <div class="select"></div>
+          </div><!--select-->
+          <div id="overlay_false"></div><!-- #overlay_false -->
+          <div id="overlay">
+            <p id="end">End</p>
+            <p id="close">Tap</p>
+          </div><!-- #overlay -->
+        </div><!-- #container_game -->
+        <div id ="container_end">
+          <div id ="countQuestion">
+            <div class="text">Question</div>
+            <div class="count">0</div>
+          </div><!-- #countquestion -->
+          <div id ="finalScore">
+           <div class="text">Score</div>
+           <div class="count">0</div>
+          </div><!-- #finalScore -->
+        <div id="icon_ad_end">
+          <div id="icon_ad_end_1" class="icon_ad">
+          </div>
+        </div>
+          <button id="restart">Restart</button>
+        </div><!-- #container_end -->
+      </div><!-- #container -->
+    </div><!-- #touch_area -->
+    <div id="footer">
+    </div>
+  </body>
+</html>
